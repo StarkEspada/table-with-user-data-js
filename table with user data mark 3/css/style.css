@@ -1,0 +1,388 @@
+body{
+	margin: 0;
+}
+.container-table{
+    width: 1700px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-bottom: 10px
+
+}
+.box-result{
+	width: 1650px;
+	height: 20px;
+	border: 2px solid black;
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-left: 25px;
+    margin-top: 10px;
+}
+.result-search{
+    width: 1623px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.box-id{
+	width: 130px;
+	border: 2px solid black;
+	display: inline-block;
+	padding-bottom: 3px;
+	margin-left: 40px;
+    margin-top: 10px;
+    vertical-align: top;
+}	
+.box-firs-name{
+	width: 260px;
+	border: 2px solid black;
+	display: inline-block;
+	padding-bottom: 3px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.box-last-name{
+	width: 260px;
+	border: 2px solid black;
+	display: inline-block;
+	padding-bottom: 3px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.box-email{
+	width: 440px;
+	border: 2px solid black;
+	display: inline-block;
+	padding-bottom: 3px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.box-phone{
+	width: 500px;
+	border: 2px solid black;
+	display: inline-block;
+	padding-bottom: 3px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.header-id{
+	width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.header-first-name{
+	width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.header-last-name{
+	width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.header-email{
+	width: 430px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+
+}
+.header-phone{
+	width: 490px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.search{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.id-user{
+	width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.first-name-user{
+	width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.last-name-user{
+	width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.email-user{
+	width: 430px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.phone-user{
+	width: 490px;
+    height: 40px;
+   	border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.slaider-up{
+	width: 85px;
+    height: 55px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 1270px;
+}
+.slaider-down{
+	width: 85px;
+    height: 55px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+.box-add-row{
+    width: 1650px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.menu-add-row{
+    width: 1600px;
+    height: 55px;
+    border: 2px solid black;
+    margin-left: 8px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.box-input{
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.save-row{
+    width: 160px;
+    height: 39px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.input-style{
+    width: 180px;
+    height: 20px;
+    margin-left: 6px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.header-input{
+    width: 150px;
+    height: 35px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.loading{
+    width: 700px;
+    height: 300px;
+    color: white;
+    background: black;
+    border: 5px solid #949191;
+    position: absolute;
+    margin-left: 600px;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 200px;
+    transition: 1s all
+}
+.test-box{
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.show-menu{
+    width: 35px;
+    height: 59px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.hide-menu{
+    width: 35px;
+    height: 59px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.header-menu{
+    width: 1000px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 260px;
+    text-align: center;
+    font-size: 35px;
+}
+.box-input-number-lines{
+    width: 250px;
+    height: 35px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.input-style-number-lines{
+    width: 230px;
+    height: 20px;
+    margin-left: 6px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.save-number-lines{
+    width: 100px;
+    height: 39px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.user-card{
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px
+}
+.box-name-user{
+    width: 424px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 55px;
+    margin-left: 138px;
+    margin-top: 20px;
+}
+.box-description-user{
+    width: 650px;
+    margin-left: 22px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box-adress-user{
+    width: 500px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.box-twon-user{
+    width: 400px;
+    font-size: 30px;
+}
+.box-state-user{
+    width: 375px;
+    height: 100px;
+    font-size: 30px;
+}
+.box-zip-user{
+    width: 200px;
+    font-size: 30px;
+}
+.container-user-card{
+    width: 1000px;
+    margin: auto;
+}
